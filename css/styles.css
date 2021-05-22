@@ -1,0 +1,181 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --grey-bg-color: #f5f4fa;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--primary-bg-color);
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.header {
+  background-color: var(--primary-bg-color);
+}
+/* Logo */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  color: #2196f3;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo .logo-header {
+  color: #212121;
+}
+
+.logo .logo-footer {
+  color: #ffffff;
+}
+
+/* Navigation links */
+
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.site-nav .link,
+.auth-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link:focus,
+.auth-nav .link:hover {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+/* Hero section */
+
+.hero-section,
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.hero-section .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* SECTIONS */
+
+.section-title,
+.section-subtitle {
+  color: var(--secondary-text-color);
+}
+
+/* Features section */
+
+.section-features .section-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.section-features .section-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Services provided section */
+
+.section-services .section-title,
+.section-team .section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Team section */
+
+.section-team {
+  background-color: var(--team-bg-color);
+}
+.section-team .section-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.section-team .section-team-text {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Footer */
+
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  color: var(--white-text-color);
+}
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+
+/* Portfolio buttons*/
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--team-bg-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* Projects section  */
+
+.section-projects-text {
+  color: var(--primary-text-color);
+}
+.section-projects .section-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-projects .section-projects-text {
+  font-size: 16px;
+  line-height: 1.9;
+}
