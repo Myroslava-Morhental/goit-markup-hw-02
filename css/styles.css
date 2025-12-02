@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   color: #434455;
-  font-family: 'Roboto', 'Helvetica', 'Open Sans', 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -36,7 +36,7 @@ a {
   text-transform: uppercase;
 }
 
-.logo2 {
+.header-logo {
   color: #2e2f42;
 }
 
@@ -124,7 +124,7 @@ a {
   background-color: #2e2f42;
 }
 
-.logo2-footer {
+.footer-logo {
   color: #f4f4fd;
   text-transform: uppercase;
 }
